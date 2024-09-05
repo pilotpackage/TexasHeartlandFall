@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_13fe198459d2768af58d37a2754ecac4 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_13fe198459d2768af58d37a2754ecac4" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_13fe198459d2768af58d37a2754ecac4 = L.map(
+                "map_13fe198459d2768af58d37a2754ecac4",
+                {
+                    center: [31.9686, -99.9018],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 6,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_0696626db47f8f68a30d5c5d71cac1ee = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_13fe198459d2768af58d37a2754ecac4);
+        
+    
+            var marker_2a96a0be4813d14c94f0e1d139a3d2a3 = L.marker(
+                [29.8154, -99.5739],
+                {}
+            ).addTo(map_13fe198459d2768af58d37a2754ecac4);
+        
+    
+        var popup_d2516d73a838efb24151d43c2e9d1b9f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_72c957974a4394673ca62fa197476cce = $(`<div id="html_72c957974a4394673ca62fa197476cce" style="width: 100.0%; height: 100.0%;">Lost Maples State Natural Area</div>`)[0];
+            popup_d2516d73a838efb24151d43c2e9d1b9f.setContent(html_72c957974a4394673ca62fa197476cce);
+        
+
+        marker_2a96a0be4813d14c94f0e1d139a3d2a3.bindPopup(popup_d2516d73a838efb24151d43c2e9d1b9f)
+        ;
+
+        
+    
+    
+            var marker_b28fbcea19adbd1ef5bde4c94bcfeb7b = L.marker(
+                [32.6761, -94.1838],
+                {}
+            ).addTo(map_13fe198459d2768af58d37a2754ecac4);
+        
+    
+        var popup_f410a8e8af046951b83491bf73217e16 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4c719950fcd782aa94e503aed5636a3d = $(`<div id="html_4c719950fcd782aa94e503aed5636a3d" style="width: 100.0%; height: 100.0%;">Caddo Lake State Park</div>`)[0];
+            popup_f410a8e8af046951b83491bf73217e16.setContent(html_4c719950fcd782aa94e503aed5636a3d);
+        
+
+        marker_b28fbcea19adbd1ef5bde4c94bcfeb7b.bindPopup(popup_f410a8e8af046951b83491bf73217e16)
+        ;
+
+        
+    
+    
+            var marker_b35e215f8d0915c7703ad3f9daa0c5c3 = L.marker(
+                [29.5502, -95.097],
+                {}
+            ).addTo(map_13fe198459d2768af58d37a2754ecac4);
+        
+    
+        var popup_f691b17f26b1a2e818877a07a9a1a1cd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9ccf7ebb0a155fdbf7d74738f4b7f689 = $(`<div id="html_9ccf7ebb0a155fdbf7d74738f4b7f689" style="width: 100.0%; height: 100.0%;">Space Center Houston</div>`)[0];
+            popup_f691b17f26b1a2e818877a07a9a1a1cd.setContent(html_9ccf7ebb0a155fdbf7d74738f4b7f689);
+        
+
+        marker_b35e215f8d0915c7703ad3f9daa0c5c3.bindPopup(popup_f691b17f26b1a2e818877a07a9a1a1cd)
+        ;
+
+        
+    
+    
+            var marker_e64993130321ec5a9df62de55de33e2c = L.marker(
+                [31.3326, -94.7284],
+                {}
+            ).addTo(map_13fe198459d2768af58d37a2754ecac4);
+        
+    
+        var popup_7c0e4da47ea3399dfcbd7a697153ca37 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_38d238d6c7c8ead0a15f06e6a8a52fa6 = $(`<div id="html_38d238d6c7c8ead0a15f06e6a8a52fa6" style="width: 100.0%; height: 100.0%;">Texas Forestry Museum</div>`)[0];
+            popup_7c0e4da47ea3399dfcbd7a697153ca37.setContent(html_38d238d6c7c8ead0a15f06e6a8a52fa6);
+        
+
+        marker_e64993130321ec5a9df62de55de33e2c.bindPopup(popup_7c0e4da47ea3399dfcbd7a697153ca37)
+        ;
+
+        
+    
+    
+            var marker_cbf5f5b7e991a67e602b3f0ec1e0057e = L.marker(
+                [30.266666, -97.73333],
+                {}
+            ).addTo(map_13fe198459d2768af58d37a2754ecac4);
+        
+    
+        var popup_c91c97530793385f00d93f5ef4fb8667 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fa65cc5cbfe723d4c6c2229706205303 = $(`<div id="html_fa65cc5cbfe723d4c6c2229706205303" style="width: 100.0%; height: 100.0%;">Austin City Limits Music Festival</div>`)[0];
+            popup_c91c97530793385f00d93f5ef4fb8667.setContent(html_fa65cc5cbfe723d4c6c2229706205303);
+        
+
+        marker_cbf5f5b7e991a67e602b3f0ec1e0057e.bindPopup(popup_c91c97530793385f00d93f5ef4fb8667)
+        ;
+
+        
+    
+    
+            var marker_242402968a0533f5a078b906b156a04e = L.marker(
+                [32.3513, -95.3011],
+                {}
+            ).addTo(map_13fe198459d2768af58d37a2754ecac4);
+        
+    
+        var popup_878c4573f8e41f6a7da238761b6faf43 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5583caa977c344a8888302769fdad8b6 = $(`<div id="html_5583caa977c344a8888302769fdad8b6" style="width: 100.0%; height: 100.0%;">Tyler Rose Garden and Museum</div>`)[0];
+            popup_878c4573f8e41f6a7da238761b6faf43.setContent(html_5583caa977c344a8888302769fdad8b6);
+        
+
+        marker_242402968a0533f5a078b906b156a04e.bindPopup(popup_878c4573f8e41f6a7da238761b6faf43)
+        ;
+
+        
+    
+    
+            var marker_f86a6246228caaa0a9b7e716d26e5804 = L.marker(
+                [29.426, -98.4861],
+                {}
+            ).addTo(map_13fe198459d2768af58d37a2754ecac4);
+        
+    
+        var popup_334622046636b93b578ee2fc804a31bd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_064dafff169e0fe21b46ce13b7884e21 = $(`<div id="html_064dafff169e0fe21b46ce13b7884e21" style="width: 100.0%; height: 100.0%;">The Alamo</div>`)[0];
+            popup_334622046636b93b578ee2fc804a31bd.setContent(html_064dafff169e0fe21b46ce13b7884e21);
+        
+
+        marker_f86a6246228caaa0a9b7e716d26e5804.bindPopup(popup_334622046636b93b578ee2fc804a31bd)
+        ;
+
+        
+    
+    
+            var marker_96f84eee0fe3ca0293c7ee51c3f8155b = L.marker(
+                [31.6035, -94.6555],
+                {}
+            ).addTo(map_13fe198459d2768af58d37a2754ecac4);
+        
+    
+        var popup_1ccb24ca0c4ae0e835cc69bfd1f57585 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8e1e290264914851f33f76d12fd18378 = $(`<div id="html_8e1e290264914851f33f76d12fd18378" style="width: 100.0%; height: 100.0%;">Nacogdoches Historic Sites</div>`)[0];
+            popup_1ccb24ca0c4ae0e835cc69bfd1f57585.setContent(html_8e1e290264914851f33f76d12fd18378);
+        
+
+        marker_96f84eee0fe3ca0293c7ee51c3f8155b.bindPopup(popup_1ccb24ca0c4ae0e835cc69bfd1f57585)
+        ;
+
+        
+    
+    
+            var marker_320d0ff617f392263ca5b0d792fd5eaa = L.marker(
+                [32.7799, -96.7645],
+                {}
+            ).addTo(map_13fe198459d2768af58d37a2754ecac4);
+        
+    
+        var popup_5507fbb93a0e6b0539db12dc0a484b43 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5908af4600c0514c223c565c9971199c = $(`<div id="html_5908af4600c0514c223c565c9971199c" style="width: 100.0%; height: 100.0%;">Texas State Fair</div>`)[0];
+            popup_5507fbb93a0e6b0539db12dc0a484b43.setContent(html_5908af4600c0514c223c565c9971199c);
+        
+
+        marker_320d0ff617f392263ca5b0d792fd5eaa.bindPopup(popup_5507fbb93a0e6b0539db12dc0a484b43)
+        ;
+
+        
+    
+    
+            var marker_36b2ad01d2fc5be3fa9743bd593b1cc6 = L.marker(
+                [32.1493, -94.3386],
+                {}
+            ).addTo(map_13fe198459d2768af58d37a2754ecac4);
+        
+    
+        var popup_b922da16e7ba4270f8670601267bd0dd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6e113f8c9c4ea174c63c3bdf79af8630 = $(`<div id="html_6e113f8c9c4ea174c63c3bdf79af8630" style="width: 100.0%; height: 100.0%;">Texas Country Music Hall of Fame</div>`)[0];
+            popup_b922da16e7ba4270f8670601267bd0dd.setContent(html_6e113f8c9c4ea174c63c3bdf79af8630);
+        
+
+        marker_36b2ad01d2fc5be3fa9743bd593b1cc6.bindPopup(popup_b922da16e7ba4270f8670601267bd0dd)
+        ;
+
+        
+    
+    
+            var marker_29aaea4d099b568b9bc32ca6925bf0dd = L.marker(
+                [30.2849, -97.7327],
+                {}
+            ).addTo(map_13fe198459d2768af58d37a2754ecac4);
+        
+    
+        var popup_b172cb0036581ac785f75b2566a6ab54 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b2cff652ec204cab29a85025bdae34d7 = $(`<div id="html_b2cff652ec204cab29a85025bdae34d7" style="width: 100.0%; height: 100.0%;">Rudy’s Country Store and Bar-B-Q</div>`)[0];
+            popup_b172cb0036581ac785f75b2566a6ab54.setContent(html_b2cff652ec204cab29a85025bdae34d7);
+        
+
+        marker_29aaea4d099b568b9bc32ca6925bf0dd.bindPopup(popup_b172cb0036581ac785f75b2566a6ab54)
+        ;
+
+        
+    
+</script>
+</html>
